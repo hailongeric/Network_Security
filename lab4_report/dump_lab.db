@@ -1,0 +1,497 @@
+;
+; Start view _default
+;
+;
+; Cache dump of view '_default' (cache _default)
+;
+$DATE 20181116140930
+; authanswer
+.			515222	IN NS	a.root-servers.net.
+			515222	IN NS	b.root-servers.net.
+			515222	IN NS	c.root-servers.net.
+			515222	IN NS	d.root-servers.net.
+			515222	IN NS	e.root-servers.net.
+			515222	IN NS	f.root-servers.net.
+			515222	IN NS	g.root-servers.net.
+			515222	IN NS	h.root-servers.net.
+			515222	IN NS	i.root-servers.net.
+			515222	IN NS	j.root-servers.net.
+			515222	IN NS	k.root-servers.net.
+			515222	IN NS	l.root-servers.net.
+			515222	IN NS	m.root-servers.net.
+; authanswer
+			515318	RRSIG	NS 8 0 518400 (
+					20181128170000 20181115160000 2134 .
+					d3hOjuQnw6BNrURbTfu39sCeKCgshV7MAXXL
+					6mBhol08NTQ/MNav0pDn7G98SP7nvElavl18
+					ZgVNbA8elzl0Ih65yy/NoO0b9kWc65O3f6yT
+					ZBrnFgVGWl2If89bFylv0jutTrmARTEBlnD9
+					RshnfgG82PJi2Iivz+c0JGpqtphz6QnSJ/hM
+					xaMFR+pOXqODtF7Yfhvg0+9z/6FHiF3uZaV2
+					vl2XI3Jy2oxeXyHOVOpSPQOwVBf6S45wiFqI
+					RFLB9Jm1z+H7fpr7X8/6iqehx0/fylsemXEF
+					9kMfWfnkNl7YaHYwvdctLPgTsC5ZMU1OzulW
+					OtHIkYqg6zw23KmrMw== )
+; glue
+com.			169716	NS	a.gtld-servers.net.
+			169716	NS	b.gtld-servers.net.
+			169716	NS	c.gtld-servers.net.
+			169716	NS	d.gtld-servers.net.
+			169716	NS	e.gtld-servers.net.
+			169716	NS	f.gtld-servers.net.
+			169716	NS	g.gtld-servers.net.
+			169716	NS	h.gtld-servers.net.
+			169716	NS	i.gtld-servers.net.
+			169716	NS	j.gtld-servers.net.
+			169716	NS	k.gtld-servers.net.
+			169716	NS	l.gtld-servers.net.
+			169716	NS	m.gtld-servers.net.
+; additional
+			83316	DS	30909 8 2 (
+					E2D3C916F6DEEAC73294E8268FB5885044A8
+					33FC5459588F4A9184CFC41A5766 )
+; additional
+			83316	RRSIG	DS 8 1 86400 (
+					20181128170000 20181115160000 2134 .
+					J3quK96mf/PoQ+GdquyjhEV9YL6/c2iqjoLF
+					nyrJlyVswaCsFgOEBiqKRMKBhH+E5bNoCDGf
+					1meys9y52s2Vl3mDWpO05ZcAk7NB1Wh05g2f
+					9xjNUhhBwCBUyRo6KnKK7sfo3db1zqXubOXR
+					H1FQk6DsrdGirSX3Nz1fHnCV4OcReBrzzPzd
+					IKj6+5Nb4XOan9TEycXngIcxvF9GSsK9+IhJ
+					Me24B6IShWKRA3Pxba/0xlVbOhV/ZA2hj70X
+					qmcyY1lHuELJl6iOWiJe33XNtLD4KdeHTYvJ
+					WoebUHrd67R0DHL/CUq9FLzD2gr6f+1EMIg6
+					afCXPEv0yDbi0gv7ag== )
+; authauthority
+example.com.		3059	NS	ns.dnslabattacker.net.
+; additional
+			83317	DS	31406 8 1 (
+					189968811E6EBA862DD6C209F75623D8D9ED
+					9142 )
+			83317	DS	31406 8 2 (
+					F78CF3344F72137235098ECBBD08947C2C90
+					01C7F6A085A17F518B5D8F6B916D )
+			83317	DS	31589 8 1 (
+					3490A6806D47F17A34C29E2CE80E8A999FFB
+					E4BE )
+			83317	DS	31589 8 2 (
+					CDE0D742D6998AA554A92D890F8184C698CF
+					AC8A26FA59875A990C03E576343C )
+			83317	DS	43547 8 1 (
+					B6225AB2CC613E0DCA7962BDC2342EA4F1B5
+					6083 )
+			83317	DS	43547 8 2 (
+					615A64233543F66F44D68933625B17497C89
+					A70E858ED76A2145997EDF96A918 )
+; additional
+			83317	RRSIG	DS 8 2 86400 (
+					20181123052305 20181116041305 37490 com.
+					PEtWYgEZtwRfqUFCZBYBT++ZdxO6W1EoW/NY
+					BtO2icY5QhMl8yLiqeO9rloTOlJkmWvQgfYC
+					o4iJuVPKm/RXfW+5uJlMfv+R1BBzbA9Yaceb
+					Lr34AG3fLvBEFY9JQfzrZH/0oUHW3nEQ9wMc
+					gb1Es6EOC/WgX/CJldGXr99aaXU= )
+; authanswer
+22222.example.com.	256444	A	1.1.1.100
+; authanswer
+mail.example.com.	256390	A	1.1.1.2
+; authanswer
+www.example.com.	83318	A	93.184.216.34
+; authanswer
+			83318	RRSIG	A 8 3 86400 (
+					20181127201150 20181106145117 63855 example.com.
+					bhxsrF6pmZz3w4R2Yf5QlSyYzGVKAxTd52Kw
+					en33/RyawEQOZtmhjLtmEmtht2QMZ9rgaZ65
+					A1wp16UaD3jTH2oQtvE4Ux/peqUuCEJQnH7t
+					4PA1l5XqFZn9oZI/p+JTenjHcj2T7plzalg+
+					m/wGIyt6oGUFGtm9Sw6eUlAZYXk= )
+; authanswer
+www1.example.com.	256418	A	1.1.1.100
+; answer
+xy0000.example.com.	582	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA sns.dns.icann.org. noc.dns.icann.org. 2018100718 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA TXT AAAA RRSIG NSEC DNSKEY
+; answer
+xy0001.example.com.	584	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA sns.dns.icann.org. noc.dns.icann.org. 2018100718 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA TXT AAAA RRSIG NSEC DNSKEY
+; answer
+xy0002.example.com.	587	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA sns.dns.icann.org. noc.dns.icann.org. 2018100718 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA TXT AAAA RRSIG NSEC DNSKEY
+; answer
+xy0003.example.com.	589	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA sns.dns.icann.org. noc.dns.icann.org. 2018100718 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA TXT AAAA RRSIG NSEC DNSKEY
+; answer
+xy0004.example.com.	591	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA sns.dns.icann.org. noc.dns.icann.org. 2018100718 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA TXT AAAA RRSIG NSEC DNSKEY
+; answer
+xy0005.example.com.	594	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA sns.dns.icann.org. noc.dns.icann.org. 2018100718 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA TXT AAAA RRSIG NSEC DNSKEY
+; answer
+xy0006.example.com.	596	\-ANY	;-$NXDOMAIN
+; www.example.com. RRSIG NSEC ...
+; www.example.com. NSEC example.com. A TXT AAAA RRSIG NSEC
+; example.com. SOA sns.dns.icann.org. noc.dns.icann.org. 2018100718 7200 3600 1209600 3600
+; example.com. RRSIG SOA ...
+; example.com. RRSIG NSEC ...
+; example.com. NSEC www.example.com. A NS SOA TXT AAAA RRSIG NSEC DNSKEY
+; authanswer
+xy0007.example.com.	256431	A	1.1.1.100
+; authanswer
+xy0011.example.com.	3059	A	1.2.3.4
+; authanswer
+xy0012.example.com.	256259	A	1.1.1.100
+; authanswer
+xy0013.example.com.	256261	A	1.1.1.100
+; authanswer
+xy0014.example.com.	256263	A	1.1.1.100
+; authanswer
+xy222.example.com.	256343	A	1.1.1.100
+; glue
+a0.org.afilias-nst.info. 169718	A	199.19.56.1
+; glue
+			169718	AAAA	2001:500:e::1
+; glue
+a2.org.afilias-nst.info. 169718	A	199.249.112.1
+; glue
+			169718	AAAA	2001:500:40::1
+; glue
+c0.org.afilias-nst.info. 169718	A	199.19.53.1
+; glue
+			169718	AAAA	2001:500:b::1
+; glue
+NET.			169717	NS	a.gtld-servers.net.
+			169717	NS	b.gtld-servers.net.
+			169717	NS	c.gtld-servers.net.
+			169717	NS	d.gtld-servers.net.
+			169717	NS	e.gtld-servers.net.
+			169717	NS	f.gtld-servers.net.
+			169717	NS	g.gtld-servers.net.
+			169717	NS	h.gtld-servers.net.
+			169717	NS	i.gtld-servers.net.
+			169717	NS	j.gtld-servers.net.
+			169717	NS	k.gtld-servers.net.
+			169717	NS	l.gtld-servers.net.
+			169717	NS	m.gtld-servers.net.
+; additional
+			83317	DS	35886 8 2 (
+					7862B27F5F516EBE19680444D4CE5E762981
+					931842C465F00236401D8BD973EE )
+; additional
+			83317	RRSIG	DS 8 1 86400 (
+					20181128170000 20181115160000 2134 .
+					SeeEO6EbyQG8dVSHkg/XDbAHwuj6t7b9Higb
+					BCa4w5nIou/DLd+vFVmtGs6+YNmY1cv9mU20
+					IdXl6UBUye9BsUwLPZ6JM8tWvt5U82pufw/0
+					BnXRB74cB2oRNQSfs8LjUtTveqFWVezc/R3Y
+					2B29YhWkFgMumEM6mWSEHbXjWyzuN+LbbWdr
+					uyVa/YwF2kZqELcLfpX2dnpkzz+yGEYvGM4o
+					XBQpXJt0NMOk0OmXswPHG08w143H1Z47/akt
+					a7u0HvS/y0Yiw+9lvr7fGbEKLbax5wi7djzc
+					Sxv0hcHK/auPy96LjOAElSeyak6pCr9H+Qbb
+					xbGivsbIYOEBNXLJPw== )
+; glue
+a.gtld-servers.NET.	169716	A	192.5.6.30
+; glue
+			169716	AAAA	2001:503:a83e::2:30
+; glue
+b.gtld-servers.NET.	169716	A	192.33.14.30
+; glue
+			169716	AAAA	2001:503:231d::2:30
+; glue
+c.gtld-servers.NET.	169716	A	192.26.92.30
+; glue
+			169716	AAAA	2001:503:83eb::30
+; glue
+d.gtld-servers.NET.	169716	A	192.31.80.30
+; glue
+			169716	AAAA	2001:500:856e::30
+; glue
+e.gtld-servers.NET.	169716	A	192.12.94.30
+; glue
+			169716	AAAA	2001:502:1ca1::30
+; glue
+f.gtld-servers.NET.	169716	A	192.35.51.30
+; glue
+			169716	AAAA	2001:503:d414::30
+; glue
+g.gtld-servers.NET.	169716	A	192.42.93.30
+; glue
+			169716	AAAA	2001:503:eea3::30
+; glue
+h.gtld-servers.NET.	169716	A	192.54.112.30
+; glue
+			169716	AAAA	2001:502:8cc::30
+; glue
+i.gtld-servers.NET.	169716	A	192.43.172.30
+; glue
+			169716	AAAA	2001:503:39c1::30
+; glue
+j.gtld-servers.NET.	169716	A	192.48.79.30
+; glue
+			169716	AAAA	2001:502:7094::30
+; glue
+k.gtld-servers.NET.	169716	A	192.52.178.30
+; glue
+			169716	AAAA	2001:503:d2d::30
+; glue
+l.gtld-servers.NET.	169716	A	192.41.162.30
+; glue
+			169716	AAAA	2001:500:d937::30
+; glue
+m.gtld-servers.NET.	169716	A	192.55.83.30
+; glue
+			169716	AAAA	2001:501:b1f9::30
+; glue
+iana-servers.NET.	169718	NS	a.iana-servers.net.
+			169718	NS	b.iana-servers.net.
+			169718	NS	c.iana-servers.net.
+			169718	NS	ns.icann.org.
+; glue
+c.iana-servers.NET.	169718	A	199.43.134.53
+; glue
+			169718	AAAA	2001:500:8e::53
+; additional
+a.ROOT-SERVERS.NET.	515222	A	198.41.0.4
+; additional
+			515222	AAAA	2001:503:ba3e::2:30
+; additional
+b.ROOT-SERVERS.NET.	515316	A	192.228.79.201
+; additional
+			515316	AAAA	2001:500:84::b
+; additional
+c.ROOT-SERVERS.NET.	515222	A	192.33.4.12
+; additional
+			515222	AAAA	2001:500:2::c
+; additional
+d.ROOT-SERVERS.NET.	515222	A	199.7.91.13
+; additional
+			515222	AAAA	2001:500:2d::d
+; answer
+E.ROOT-SERVERS.NET.	7616	\-AAAA	;-$NXRRSET
+; root-servers.net. SOA a.root-servers.net. nstld.verisign-grs.com. 2016032300 14400 7200 1209600 3600000
+; additional
+			515222	A	192.203.230.10
+; additional
+f.ROOT-SERVERS.NET.	515222	A	192.5.5.241
+; additional
+			515222	AAAA	2001:500:2f::f
+; answer
+G.ROOT-SERVERS.NET.	7615	\-AAAA	;-$NXRRSET
+; root-servers.net. SOA a.root-servers.net. nstld.verisign-grs.com. 2016032300 14400 7200 1209600 3600000
+; additional
+			515222	A	192.112.36.4
+; additional
+h.ROOT-SERVERS.NET.	515222	A	198.97.190.53
+; additional
+			515222	AAAA	2001:500:1::53
+; additional
+i.ROOT-SERVERS.NET.	515222	A	192.36.148.17
+; additional
+			515222	AAAA	2001:7fe::53
+; additional
+j.ROOT-SERVERS.NET.	515222	A	192.58.128.30
+; additional
+			515222	AAAA	2001:503:c27::2:30
+; additional
+k.ROOT-SERVERS.NET.	515222	A	193.0.14.129
+; additional
+			515222	AAAA	2001:7fd::1
+; additional
+l.ROOT-SERVERS.NET.	515222	A	199.7.83.42
+; additional
+			515222	AAAA	2001:500:9f::42
+; additional
+m.ROOT-SERVERS.NET.	515222	A	202.12.27.33
+; additional
+			515222	AAAA	2001:dc3::35
+; glue
+org.			169718	NS	a0.org.afilias-nst.info.
+			169718	NS	a2.org.afilias-nst.info.
+			169718	NS	b0.org.afilias-nst.org.
+			169718	NS	b2.org.afilias-nst.org.
+			169718	NS	c0.org.afilias-nst.info.
+			169718	NS	d0.org.afilias-nst.org.
+; additional
+			83318	DS	9795 7 1 (
+					364DFAB3DAF254CAB477B5675B10766DDAA2
+					4982 )
+			83318	DS	9795 7 2 (
+					3922B31B6F3A4EA92B19EB7B52120F031FD8
+					E05FF0B03BAFCF9F891BFE7FF8E5 )
+; additional
+			83318	RRSIG	DS 8 1 86400 (
+					20181128170000 20181115160000 2134 .
+					FDemF/zF1EvaCu9pwRt29t/HNvVMo7lf03a7
+					36EXNXRkFStZFe1YZPzO4sIqQIk7zAyF3yJi
+					PYpPaPkSd0zdDVg+5X9YtBKEHy30Su+ZO1a2
+					GTLhMdWlG9159ZZ5kXsBZXaXWaURtbW8LIpP
+					Bs0eUCGCa12J2d+3pLeEmvvsFC9+nnHDXOJx
+					FQYA89b5usxGsJVa4nOikLFyOahxFc/Zqskk
+					Eq9R+026Y49+PkDXQrHi5aYJrHKuhvEmW9Sh
+					8z+uzoeQqpPpQBOM4NcJPpX6QkCrdrJ8J6k6
+					eAXO30czqHIxRcSHU/VrwNycRBkAimMiLH7Y
+					ykG9Gr6ZOomzMOoWRg== )
+; glue
+b0.org.afilias-nst.org.	169718	A	199.19.54.1
+; glue
+			169718	AAAA	2001:500:c::1
+; glue
+b2.org.afilias-nst.org.	169718	A	199.249.120.1
+; glue
+			169718	AAAA	2001:500:48::1
+; glue
+d0.org.afilias-nst.org.	169718	A	199.19.57.1
+; glue
+			169718	AAAA	2001:500:f::1
+; glue
+icann.org.		83318	NS	a.iana-servers.net.
+			83318	NS	b.iana-servers.net.
+			83318	NS	c.iana-servers.net.
+			83318	NS	ns.icann.org.
+; additional
+			83318	DS	17248 7 1 (
+					88151C40E4673E7023E6AD1902A8AE055F3D
+					DF61 )
+			83318	DS	17248 7 2 (
+					885CF8A6CF35FD5C619E1D48B59AFB23063B
+					BA9FEC52FF25F99094CBA10910A2 )
+			83318	DS	18060 7 1 (
+					04CF77A76FD328458005D2B35E416F209A34
+					20A0 )
+			83318	DS	18060 7 2 (
+					6BE021818B9F10ED981A03ACBF74F01E31FB
+					15C58680AD0C4BAA464BF37A7523 )
+			83318	DS	32134 7 1 (
+					3D54D51109645E8315F59790B920323D361B
+					065F )
+			83318	DS	32134 7 2 (
+					6C321409786B95BEEE60E6D42F3713ACC3A9
+					B5D18442091A792FBDD1EA8E4655 )
+			83318	DS	41334 7 1 (
+					49D712CF7A8984B7545FDC7E69D737278233
+					9B3A )
+			83318	DS	41334 7 2 (
+					C299FAF7D6F9BCB310200ECF2EA216A2E83F
+					7ACB15C8D72D79641FA8DFACF9A9 )
+			83318	DS	41643 7 1 (
+					93358DB22E956A451EB5AE8D2EC39526CA6A
+					87B9 )
+			83318	DS	41643 7 2 (
+					B8AB67D895E62087F0C5FC5A1A941C67A18E
+					4B096F6C622AEFAE30DD7B1EA199 )
+; additional
+			83318	RRSIG	DS 7 2 86400 (
+					20181130152943 20181109142943 6368 org.
+					Pc7dS7nplrVdDT1Y9uDzjsYcr5smWVmeYPNB
+					fvjrrC6/JMaiAk5Dym6iPSlZ7HFl+gFzIaNb
+					AB3gJqgkc7ZGxf8Kvbd0lxrek05xtB19dihd
+					H5AC2t0++xrTQgBcEjj82bx/1rTYpyRHQaKO
+					GlpfgskeRwQpfuhADpB003yNgmk= )
+; authanswer
+ns.icann.org.		519	A	199.4.138.53
+; authanswer
+			519	RRSIG	A 7 3 3600 (
+					20181126191055 20181105225117 2424 icann.org.
+					hJJcmjus5z2qY3Znr5hr+iCS27f0FoxL06Id
+					v043IRHfBSEgB+qi5LUGRgFjFadNqo/mDgGn
+					/As23JyKK8wlC6HQp0WT2iyqkFRVwfl9986/
+					eR2yNkglzBCUlNpN9wJ42moJOcyuNeo5VghH
+					lPsx4WAdy8G5vv4LLIEDhnFACMk= )
+; authanswer
+			519	AAAA	2001:500:89::53
+; authanswer
+			519	RRSIG	AAAA 7 3 3600 (
+					20181128071343 20181106182617 2424 icann.org.
+					mNU3SVKmQ/plypmY6vI7Smc9wdlbrp2FJIrl
+					XGbB57X/G8ubaTRT2LzF7/89PCqfqPapsvh1
+					2tifpJYYLaqSxNUK76/qC68IWNyAWTuPI7up
+					4Exeo91OgY/ezrmmAYPGSXKWWPy2wfSNZD/e
+					1OzsTHdzwtitOWKqMcm03uSEDFw= )
+;
+; Address database dump
+;
+; [edns success/4096 timeout/1432 timeout/1232 timeout/512 timeout]
+; [plain success/timeout]
+;
+; E.ROOT-SERVERS.NET [v6 TTL 7616] [v4 unexpected] [v6 nxrrset]
+; G.ROOT-SERVERS.NET [v6 TTL 7615] [v4 unexpected] [v6 nxrrset]
+;
+; Unassociated entries
+;
+;	2001:500:2::c [srtt 235569] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1126]
+;	2001:7fe::53 [srtt 27] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	2001:dc3::35 [srtt 205278] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1125]
+;	192.112.36.4 [srtt 19] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	2001:500:3::42 [srtt 16] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	198.41.0.4 [srtt 25] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	192.36.148.17 [srtt 157243] [flags 00004000] [edns 1/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1129]
+;	202.12.27.33 [srtt 24] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	2001:500:2f::f [srtt 29] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	2001:500:2d::d [srtt 17] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	2001:500:1::53 [srtt 21] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	2001:503:ba3e::2:30 [srtt 78710] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1129]
+;	2001:7fd::1 [srtt 22] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	192.203.230.10 [srtt 138359] [flags 00000000] [edns 0/2/2/2/2] [plain 0/0] [ttl 1127]
+;	199.7.83.42 [srtt 24] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	192.33.4.12 [srtt 30768] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1128]
+;	192.5.5.241 [srtt 30] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	198.97.190.53 [srtt 13] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	192.228.79.201 [srtt 28] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	2001:500:84::b [srtt 23] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	2001:503:c27::2:30 [srtt 20] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;	199.7.91.13 [srtt 104600] [flags 00004000] [edns 1/1/0/0/0] [plain 0/0] [udpsize 512] [ttl 1129]
+;	193.0.14.129 [srtt 185483] [flags 00000000] [edns 0/2/2/2/2] [plain 0/0] [ttl 1126]
+;	192.58.128.30 [srtt 18] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1129]
+;
+; Bad cache
+;
+;
+; Start view _bind
+;
+;
+; Cache dump of view '_bind' (cache _bind)
+;
+$DATE 20181116140930
+;
+; Address database dump
+;
+; [edns success/4096 timeout/1432 timeout/1232 timeout/512 timeout]
+; [plain success/timeout]
+;
+;
+; Unassociated entries
+;
+;
+; Bad cache
+;
+; Dump complete
